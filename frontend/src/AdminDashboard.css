@@ -1,0 +1,158 @@
+.admin-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: #f1f5f9;
+}
+
+.admin-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.admin-header {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  padding: 30px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+}
+
+.admin-header h1 {
+  margin: 0 0 8px;
+}
+
+.admin-header p {
+  margin: 0;
+  opacity: 0.85;
+}
+
+.product-form {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+}
+
+.product-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.product-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-form input {
+  padding: 13px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.product-form input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.product-form button {
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.product-form button:hover {
+  background: #1d4ed8;
+}
+
+.admin-actions {
+  margin-top: 25px;
+}
+
+.admin-actions button {
+  padding: 11px 18px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.admin-products {
+  margin-top: 35px;
+}
+
+.admin-products h2 {
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.admin-product-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(230px, 1fr)
+  );
+  gap: 20px;
+}
+
+.admin-product-card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.admin-product-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.admin-product-card h3 {
+  color: #0f172a;
+}
+
+.admin-product-card strong {
+  display: block;
+  margin: 10px 0;
+  color: #2563eb;
+  font-size: 20px;
+}
+
+.delete-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  background: #dc2626;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+.edit-btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 7px;
+  background: #f59e0b;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #d97706;
+}
